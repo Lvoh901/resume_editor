@@ -1,4 +1,4 @@
-import './app.css';
+import './assets/style.css';
 import React, { useState } from "react";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
