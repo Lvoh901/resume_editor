@@ -473,7 +473,10 @@ const App = () => {
     <div className="bg-gray-100 font-sans">
       <div className="flex max-w-screen-xl mx-auto my-5 bg-white shadow-lg rounded-lg">
         <div className="w-2/5 p-8 bg-gray-50 border-r border-gray-200">
-          <h2 className="font-bold mb-6">Resume Editor</h2>
+          <div className='flex flex-col'>
+            <img src="/logo.png" alt="resume-logo" className='w-16 h-16' />
+            <h2 className="font-bold mb-6 uppercase underline underline_offset-4">Resume Editor</h2>
+          </div>
 
           <Accordion title="Settings">
             <div className={formGroupClasses}>
